@@ -35,7 +35,8 @@
     "react-lifecycles-compat": "^1.0.2",
     "react-native-drawer-layout-polyfill": "^1.3.2",
     "react-native-safe-area-view": "^0.7.0",
-    "react-native-tab-view": "github:react-navigation/react-native-tab-view"
+    "react-native-tab-view": "github:react-navigation/react-native-tab-view",
+    "react-native-vector-icons": "^4.6.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
