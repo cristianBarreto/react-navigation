@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Platform, StyleSheet } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import TouchableItem from '../TouchableItem';
 
@@ -62,7 +63,7 @@ const DrawerNavigatorItems = ({
                     iconContainerStyle,
                   ]}
                 >
-                  {icon}
+                  <Icon name={icon} size={20} color={focused ? activeTintColor : inactiveTintColor}/>
                 </View>
               ) : null}
               {typeof label === 'string' ? (
@@ -112,7 +113,6 @@ const styles = StyleSheet.create({
   },
   label: {
     margin: 16,
-    fontWeight: 'bold',
   },
 });
 
